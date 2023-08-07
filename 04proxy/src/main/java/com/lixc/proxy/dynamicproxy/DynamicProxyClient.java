@@ -7,7 +7,7 @@ package com.lixc.proxy.dynamicproxy;
  * @version 1.0
  * @since 2023-08-07 9:33
  */
-public class DynamicProxyClientDemo {
+public class DynamicProxyClient {
     public static void main(String[] args) {
         ITeacher target = new Teacher();
         // 给目标对象创建代理对象（将获取到的代理对象强转为目标对象实现的接口）
