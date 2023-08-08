@@ -1,4 +1,4 @@
-package com.lixc.proxy.dynamicproxy;
+package com.lixc.proxy.dynamicproxy.jdk;
 
 import java.lang.reflect.Proxy;
 

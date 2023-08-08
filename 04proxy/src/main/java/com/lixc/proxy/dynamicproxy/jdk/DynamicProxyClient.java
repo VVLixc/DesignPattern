@@ -1,4 +1,4 @@
-package com.lixc.proxy.dynamicproxy;
+package com.lixc.proxy.dynamicproxy.jdk;
 
 /**
  * com.lixc.proxy.staticproxy
@@ -11,7 +11,7 @@ public class DynamicProxyClient {
     public static void main(String[] args) {
         ITeacher target = new Teacher();
         // 给目标对象创建代理对象（将获取到的代理对象强转为目标对象实现的接口）
-        // proxyInstance：com.lixc.proxy.dynamicproxy.Teacher@2503dbd3
+        // proxyInstance：com.lixc.proxy.dynamicproxy.jdk.Teacher@2503dbd3
         // proxyInstance.getClass()：class com.sun.proxy.$Proxy0     $表示代理对象 表明内存中动态生成了代理对象
         ITeacher proxyInstance =(ITeacher) new TeacherProxy(target).getProxyInstance();
         proxyInstance.teach();

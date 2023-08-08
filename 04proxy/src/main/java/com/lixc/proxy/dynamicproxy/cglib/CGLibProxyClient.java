@@ -1,7 +1,7 @@
-package com.lixc.proxy.cglib;
+package com.lixc.proxy.dynamicproxy.cglib;
 
 /**
- * com.lixc.proxy.cglib
+ * com.lixc.proxy.dynamicproxy.cglib
  *
  * @author Lixc
  * @version 1.0
@@ -14,8 +14,9 @@ public class CGLibProxyClient {
         System.out.println("ClientTest：执行代理对象的方法，触发CGLib依赖的intercept方法，从而实现对目标对象的调用");
         proxyInstance.teach();
 
+        // ClientTest：获取目标对象的代理对象
         // CGLib提供的API：获取目标对象的代理对象
-        // ===========
+        // ClientTest：执行代理对象的方法，触发CGLib依赖的intercept方法，从而实现对目标对象的调用
         // CGLib代理模式>>>start
         // 讲师授课
         // CGLib代理模式>>>end

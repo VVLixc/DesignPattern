@@ -1,4 +1,4 @@
-package com.lixc.proxy.cglib;
+package com.lixc.proxy.dynamicproxy.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
@@ -7,7 +7,7 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * com.lixc.proxy.cglib
+ * com.lixc.proxy.dynamicproxy.cglib
  *
  * @author Lixc
  * @version 1.0

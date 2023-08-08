@@ -1,4 +1,4 @@
-package com.lixc.proxy.dynamicproxy;
+package com.lixc.proxy.dynamicproxy.jdk;
 
 /**
  * com.lixc.proxy.staticproxy

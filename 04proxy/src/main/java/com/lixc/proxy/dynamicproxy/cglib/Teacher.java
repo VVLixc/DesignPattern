@@ -1,7 +1,7 @@
-package com.lixc.proxy.cglib;
+package com.lixc.proxy.dynamicproxy.cglib;
 
 /**
- * com.lixc.proxy.cglib
+ * com.lixc.proxy.dynamicproxy.cglib
  *
  * @author Lixc
  * @version 1.0
